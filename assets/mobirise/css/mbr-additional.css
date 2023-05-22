@@ -1070,7 +1070,7 @@ section.lazy-placeholder:after {
 .cid-rodi8GgSmM {
   padding-top: 135px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/background4-1920x1280.jpg");
 }
 .cid-rodi8GgSmM .form-control,
 .cid-rodi8GgSmM .form-control:focus {
@@ -3043,7 +3043,7 @@ section.lazy-placeholder:after {
 .cid-rmw3ZNehnZ {
   padding-top: 120px;
   padding-bottom: 30px;
-  background-image: url("../../../assets/images/mbr-1-1920x1320.jpg");
+  background-image: url("../../../assets/images/mbr-1-1918x707.jpg");
 }
 .cid-rmw3ZNehnZ .mbr-text,
 .cid-rmw3ZNehnZ .mbr-section-btn {
@@ -5012,7 +5012,7 @@ section.lazy-placeholder:after {
 .cid-spNrWekUTH {
   padding-top: 135px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/mbr-1920x1281.jpeg");
+  background-image: url("../../../assets/images/mbr-1920x1024.jpg");
 }
 .cid-spNrWew22q {
   padding-top: 45px;
@@ -5521,7 +5521,7 @@ section.lazy-placeholder:after {
 }
 .cid-rnx7tJXRhi {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-rnx7tJXRhi .line {
@@ -5545,48 +5545,23 @@ section.lazy-placeholder:after {
 .cid-rnx7tJXRhi .section-text DIV {
   color: #767676;
 }
-.cid-roeuyjwuE2 {
-  padding-top: 15px;
+.cid-tF0DWKi8yM {
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
-.cid-roeuyjwuE2 .mbr-section-subtitle {
+.cid-tF0DWKi8yM .mbr-text {
   color: #767676;
 }
-.cid-roeuyjwuE2 .media-row {
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-}
-.cid-roeuyjwuE2 .team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
-}
-.cid-roeuyjwuE2 .team-item .item-image img {
-  width: 20%;
-}
-.cid-roeuyjwuE2 .team-item .item-name p {
-  margin-bottom: 0;
-}
-.cid-roeuyjwuE2 .team-item .item-role p {
-  margin-bottom: 0;
-}
-.cid-roeuyjwuE2 .team-item .item-social {
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: center;
-}
-.cid-roeuyjwuE2 .team-item .item-social .socicon {
-  color: #232323;
-  font-size: 17px;
-}
-.cid-roeuyjwuE2 .team-item .item-caption {
-  background: #ffffff;
-}
-.cid-roeuyjwuE2 .item-role P {
+.cid-tF0DWKi8yM h4 {
   text-align: center;
+}
+.cid-tF0DWKi8yM p {
+  text-align: center;
+}
+.cid-tF0DWKi8yM .card-img span {
+  font-size: 96px;
+  color: #149dcc;
 }
 .cid-rYv4v8iQKH {
   padding-top: 60px;
