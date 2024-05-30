@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "networking.html",
+    "currentPage": "helpdesk.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 257,
+    "uniqCompNum": 258,
     "versionPublish": "5.9.18",
     "favicon": "@PROJECT_PATH@/assets/images/yellowbgfadestatic-1.gif",
     "noImageResize": null,
@@ -1972,6 +1972,42 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".section-text\" mbr-text>At Cedarcreek Networking, we understand the importance of keeping your technology running smoothly and efficiently. Our proactive support services are designed to anticipate and address potential issues before they impact your business operations. By offering comprehensive and responsive IT support, we ensure your business stays productive and connected.<br><br><br>\n<div><b>Desktop and Healthcare Software Support\n</b></div><div>We specialize in providing expert support for both desktop environments and specialized healthcare software. Our team is experienced in managing the unique challenges associated with healthcare IT systems, ensuring compliance, security, and seamless operation.</div><br><div>\n</div><div><b>Help Desk Support\n</b></div><div>Our help desk support services offer you quick and reliable assistance for all your IT-related issues. Whether it’s troubleshooting a software problem or guiding you through a technical challenge, our knowledgeable support team is here to help, minimizing downtime and keeping your operations on track.</div><br><div>\n</div><div><b>PC / Application Deployment\n</b></div><div>Deploying new PCs and applications can be a complex and time-consuming process. Our team handles the entire deployment process, from installation to configuration, ensuring that all systems and applications are set up correctly and efficiently, so your team can start working without delays.</div><br><div>\n</div><div><b>Smartphone / Tablet Support\n</b></div><div>In today’s mobile-first world, having reliable support for your smartphones and tablets is crucial. We provide comprehensive support for mobile devices, ensuring they integrate seamlessly with your network and applications. Our services cover everything from setup and configuration to troubleshooting and maintenance.</div><br><div>\n</div><div><b>Technical Training\n</b></div><div>Empower your team with the knowledge they need to use your IT systems effectively. Our technical training services are designed to help your staff understand and utilize technology to its fullest potential. We offer customized training sessions tailored to your specific needs and technology environment.</div><br><div>\n</div><div><b>Managed Services\n</b></div><div>Our managed services provide ongoing, proactive management of your IT infrastructure. From routine maintenance to advanced monitoring and support, we take care of your IT needs, allowing you to focus on your core business activities. Our managed services ensure that your systems are always up-to-date, secure, and performing optimally.</div><div><br></div><br><div>\n</div><div>At Cedarcreek Networking, we are committed to delivering proactive support that enhances your business operations. Trust us to keep your technology running smoothly and efficiently, so you can focus on what you do best. Contact us today to learn more about our proactive support services and how we can help your business succeed.\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "uegCOaQeuA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-75"
         },
         {
           "alias": false,
