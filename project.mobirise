@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "security.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 259,
+    "uniqCompNum": 261,
     "versionPublish": "5.9.18",
     "favicon": "@PROJECT_PATH@/assets/images/yellowbgfadestatic-1.gif",
     "noImageResize": null,
@@ -3405,7 +3405,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Cedarcreek Networking is a managed service provider (MSP) specializing in IT services for the healthcare community and small businesses.  \n</p><p>Our team of professionals collaborate with clients to focus on the business challenges at hand.&nbsp;<span style=\"font-size: 1.2rem;\">We develop effective strategies, designs, and expert implementations that best meet the needs of our clients, allowing for future growth. Our</span><span style=\"font-size: 1.2rem;\">&nbsp;consultative decisions are based on your business drivers for implementing advanced technology.</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Cedarcreek Networking is a managed service provider (MSP) specializing in IT services for the healthcare community and small businesses.  \n</p><p>Our team of professionals collaborate with clients to focus on the business challenges at hand.&nbsp;<span style=\"font-size: 1.2rem;\">We develop effective strategies, designs, and expert implementations that best meet the needs of our clients, allowing for future growth. Our</span><span style=\"font-size: 1.2rem;\">&nbsp;consultative decisions are based on your business drivers for implementing advanced technology.</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "udZxTsbYVU",
           "_protectedParams": [],
           "_global": false,
