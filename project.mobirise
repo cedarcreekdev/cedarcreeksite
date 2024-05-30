@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "security.html",
+    "currentPage": "phipa.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 261,
+    "uniqCompNum": 262,
     "versionPublish": "5.9.18",
     "favicon": "@PROJECT_PATH@/assets/images/yellowbgfadestatic-1.gif",
     "noImageResize": null,
@@ -4250,63 +4250,22 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ul": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem",
-                  "& when (@stylizedCounters)": {
-                    "list-style": "none",
-                    "position": "relative",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-56px",
-                      "margin-top": "-10px",
-                      "padding-top": "3px",
-                      "content": "''",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "20px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "25px",
-                      "height": "25px",
-                      "border-radius": "50%",
-                      "& when (@countersType = 'circle')": {
-                        "background": "none",
-                        "border": "1px solid @counterColor",
-                        "color": "@counterColor"
-                      },
-                      "& when (@countersType = 'square')": {
-                        "border-radius": "0"
-                      },
-                      "& when (@mark)": {
-                        "content": "'✓'"
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            ".mbr-text UL": {
-              "text-align": "left"
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             },
             ".mbr-text": {
               "color": "#000000"
             }
           },
-          "_name": "content12",
+          "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\">Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\" selected>Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>Notify the custodian of any breach of the restrictions on its use and disclosure of\n personal health information or unauthorized access;</li>\n                    <li><span style=\"font-size: 1.2rem;\">Make available to the public, information about the services provided to the custodian;&nbsp;</span><span style=\"font-size: 1.2rem;\">any directives, guidelines and policies of the provider that apply to the services provided;&nbsp;</span><span style=\"font-size: 1.2rem;\">and a general description of the safeguards that have been implemented;</span></li><li>Provide to the custodian… electronic record of all accesses and transfers&nbsp;of personal\n health information associated with the custodian;</li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "spNwNaGTCD",
-          "_anchor": "content12-6q",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>Is Your Clinic PHIPA Compliant when it comes to IT?</b></p><p>Ensuring the privacy and security of healthcare information is paramount in today's healthcare landscape. But navigating the complexities of PHIPA compliance in the IT realm can be a daunting task. The Personal Health Information Protection Act (PHIPA) is extensive and often difficult to interpret. We are here to help.</p><p>Are you confident that your clinic is fully compliant with PHIPA with regards to your IT? Contact us today to schedule a consultation and take the first step toward ensuring the security and privacy of healthcare information at your clinic. Don’t risk the consequences of non-compliance with PHIPA. Protect your patients' privacy and your clinic's reputation with our comprehensive PHIPA compliance solutions.</p><p><br></p><p><b>How CedarCreek Networking Can Help</b></p><p><b>Expert Guidance: </b>Our experienced team of IT professionals understands the ins and outs of PHIPA. We provide expert guidance to help your clinic achieve and maintain technological compliance with the assistance of our IT PHIPA policy document.</p><p><b>Training and Education: </b>We offer comprehensive training and education programs to ensure that your staff understands their roles and responsibilities under PHIPA.</p><p><b>Audit and Assessment:</b> Our thorough audits and assessments identify compliance gaps and provide a roadmap for improvement.</p><p><br></p><p><b>The Role of PHIPA</b></p><p><u>PHIPA provides a set of rules for:</u></p><p><b>Consent</b> - Ensuring that patients' consent is obtained for the collection, use, and disclosure of their personal health information.</p><p><b>Maintaining Confidentiality and Security</b> - Safeguarding personal health information through secure practices.</p><p><b>Digital Security</b> - Implementing robust networks, firewalls, and computer systems to protect healthcare data.</p><p><b>Accessing and Updating Information</b> - Managing access and updates to personal health information in a secure manner.</p><p><b>Fundraising and Marketing</b> - Establishing guidelines for using personal health information in fundraising and marketing.</p><p><b>Accountability and Complaints</b> - Addressing complaints and inaccuracies in personal health information.</p><p><b>Breach Management</b> - Handling breaches to the legislation effectively and efficiently.</p><p><br></p><p>CedarCreek is here to answer your questions and address your concerns whenever you need us. Reach out to us and let’s ensure your clinic’s compliance with PHIPA together.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "ueheJxfYaD",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content1-79"
         },
         {
           "alias": false,
@@ -4326,7 +4285,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>If your service provider does not keep an audit log of remote connections made to your\n<span style=\"font-size: 1.2rem;\">environment, this means your service provider is not PHIPA compliant. You should also&nbsp;</span><span style=\"font-size: 1.2rem;\">understand as a health data custodian, that you should not request your service&nbsp;</span><span style=\"font-size: 1.2rem;\">provider to use a tool that does not keep an audit log.</span></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f2f2f2\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>If your service provider does not keep an audit log of remote connections made to your\n<span style=\"font-size: 1.2rem;\">environment, this means your service provider is not PHIPA compliant. You should also&nbsp;</span><span style=\"font-size: 1.2rem;\">understand as a health data custodian, that you should not request your service&nbsp;</span><span style=\"font-size: 1.2rem;\">provider to use a tool that does not keep an audit log.</span></b></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "spNxHYbeEU",
           "_anchor": "content1-6s",
           "_protectedParams": [],
