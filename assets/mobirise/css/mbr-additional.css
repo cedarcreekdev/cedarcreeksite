@@ -3405,6 +3405,54 @@ section.lazy-placeholder:after {
 .cid-udZyHnjQUd .mbr-text {
   color: #000000;
 }
+.cid-ujh4pCKMGh {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-ujh4pCKMGh .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-ujh4pCKMGh .formoid {
+  margin: auto;
+}
+.cid-ujh4pCKMGh .form-control {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.cid-ujh4pCKMGh .input-group-btn .btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 !important;
+}
+.cid-ujh4pCKMGh input[type="email"] {
+  border-radius: 100px !important;
+}
+.cid-ujh4pCKMGh a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+.cid-ujh4pCKMGh a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+@media (max-width: 768px) {
+  .cid-ujh4pCKMGh .mbr-form .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-ujh4pCKMGh .form-group,
+  .cid-ujh4pCKMGh .input-group-btn,
+  .cid-ujh4pCKMGh .input-group-btn .btn {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .cid-ujh4pCKMGh .mbr-form .row > * {
+    padding: 0 0.5rem;
+  }
+}
 .cid-rYv4v8iQKH {
   padding-top: 30px;
   padding-bottom: 0px;
