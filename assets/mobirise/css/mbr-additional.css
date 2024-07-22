@@ -3279,13 +3279,17 @@ section.lazy-placeholder:after {
 }
 .cid-rY3WGQkJOL {
   padding-top: 135px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
 }
 .cid-rY3WGQkJOL P {
   color: #767676;
 }
 .cid-rY3WGQkJOL H1 {
+  color: #ffffff;
+}
+.cid-rY3WGQkJOL .mbr-text,
+.cid-rY3WGQkJOL .mbr-section-btn {
   color: #ffffff;
 }
 .cid-udZxTsbYVU {
