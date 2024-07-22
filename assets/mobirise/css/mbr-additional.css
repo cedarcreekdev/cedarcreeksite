@@ -6863,10 +6863,13 @@ section.lazy-placeholder:after {
 .cid-uhXihUoEgr {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-image: url("../../../assets/images/gettyimages-1623947749-2000x1333.jpg");
 }
 .cid-uhXihUoEgr P {
   color: #767676;
+}
+.cid-uhXihUoEgr H1 {
+  color: #ffffff;
 }
 .cid-uhXiBThzLw {
   padding-top: 60px;
@@ -6876,6 +6879,9 @@ section.lazy-placeholder:after {
 .cid-uhXiBThzLw .mbr-text,
 .cid-uhXiBThzLw blockquote {
   color: #767676;
+}
+.cid-uhXiBThzLw .mbr-text {
+  color: #000000;
 }
 .cid-roFnHTIOQW .navbar {
   padding: .5rem 0;
