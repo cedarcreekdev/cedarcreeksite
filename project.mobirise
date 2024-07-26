@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "UnderstandingManagedIT.html",
+    "currentPage": "RegularITAudits.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -8994,7 +8994,7 @@
               "color": "#767676"
             },
             "H1": {
-              "color": "#ffffff"
+              "color": "#000000"
             }
           },
           "_name": "header16",
