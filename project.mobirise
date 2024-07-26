@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "roleofcybersecurity.html",
+    "currentPage": "cloudmigration.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 353,
+    "uniqCompNum": 366,
     "versionPublish": "5.9.18",
     "favicon": "@PROJECT_PATH@/assets/images/yellowbgfadestatic-1.gif",
     "noImageResize": null,
@@ -84,7 +84,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "3"
+        "order": "4"
       },
       "components": [
         {
@@ -775,7 +775,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "4"
+        "order": "5"
       },
       "components": [
         {
@@ -1465,7 +1465,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "5"
+        "order": "6"
       },
       "components": [
         {
@@ -2150,7 +2150,7 @@
       "settings": {
         "meta_descr": "",
         "title": "About Us",
-        "order": "8"
+        "order": "9"
       },
       "components": [
         {
@@ -3827,7 +3827,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "6"
+        "order": "7"
       },
       "components": [
         {
@@ -4445,7 +4445,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "9"
+        "order": "10"
       },
       "components": [
         {
@@ -4976,7 +4976,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "7"
+        "order": "8"
       },
       "components": [
         {
@@ -5695,7 +5695,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Get a Free Security Assessment",
-        "order": "10"
+        "order": "11"
       },
       "components": [
         {
@@ -6253,7 +6253,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Refer a Friend",
-        "order": "12"
+        "order": "13"
       },
       "components": [
         {
@@ -6736,7 +6736,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Referral Program",
-        "order": "11"
+        "order": "12"
       },
       "components": [
         {
@@ -7521,7 +7521,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Understanding Managed IT Services",
-        "order": "16"
+        "order": "17"
       },
       "components": [
         {
@@ -8017,7 +8017,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Educational Resources",
-        "order": "13"
+        "order": "14"
       },
       "components": [
         {
@@ -8540,7 +8540,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "The Importance of Regular IT Audits",
-        "order": "15"
+        "order": "16"
       },
       "components": [
         {
@@ -9220,7 +9220,7 @@
       "settings": {
         "meta_descr": "Web Maker Description",
         "title": "How to Choose the Right Managed IT Service Provider",
-        "order": "14"
+        "order": "15"
       },
       "components": [
         {
