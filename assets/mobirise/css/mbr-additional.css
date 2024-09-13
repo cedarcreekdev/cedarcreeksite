@@ -10982,26 +10982,45 @@ section.lazy-placeholder:after {
 .cid-umRnKHkSiD .mbr-text {
   color: #000000;
 }
-.cid-umRnLmljWJ {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
+.cid-uohCoA1u6K {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.cid-umRnLmljWJ .line {
-  background-color: #149dcc;
-  color: #149dcc;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
+.cid-uohCoA1u6K .image-block {
+  margin: auto;
 }
-.cid-umRnLmljWJ .section-text {
-  padding: 2rem 0;
+.cid-uohCoA1u6K figcaption {
+  position: relative;
 }
-.cid-umRnLmljWJ .inner-container {
-  margin: 0 auto;
+.cid-uohCoA1u6K figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 @media (max-width: 768px) {
-  .cid-umRnLmljWJ .inner-container {
+  .cid-uohCoA1u6K .image-block {
+    width: 100% !important;
+  }
+}
+.cid-uohCpkJJtl {
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.cid-uohCpkJJtl .image-block {
+  margin: auto;
+}
+.cid-uohCpkJJtl figcaption {
+  position: relative;
+}
+.cid-uohCpkJJtl figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-uohCpkJJtl .image-block {
     width: 100% !important;
   }
 }
