@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "educationalresources.html",
+    "currentPage": "speakers.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 450,
+    "uniqCompNum": 451,
     "versionPublish": "5.9.18",
     "favicon": "@PROJECT_PATH@/assets/images/yellowbgfadestatic-1.gif",
     "noImageResize": null,
@@ -14267,7 +14267,7 @@
           },
           "_name": "content6",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"40\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-10\"> <!-- Increased width to 10 columns -->\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" style=\"width: 40%; float: right; margin: 0 0 10px 10px;\"> <!-- Reduced margin -->\n                      <img src=\"@PROJECT_PATH@/assets/images/4944443615634362035-406x227.jpeg\" alt=\"Mobirise\" style=\"width: 100%; height: auto;\">  \n                    </div>\n                    <div class=\"media-content\" style=\"width: 55%;\"> <!-- Adjusted text width to balance -->\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" style=\"text-align: justify;\">\n                                Fred Weinhardt</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"40\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-10\"> <!-- Increased width to 10 columns -->\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" style=\"width: 40%; float: right; margin: 0 0 10px 10px;\"> <!-- Reduced margin -->\n                      <img src=\"@PROJECT_PATH@/assets/images/4944443615634362035-406x227.jpeg\" alt=\"Mobirise\" style=\"width: 100%; height: auto;\">  \n                    </div>\n                    <div class=\"media-content\" style=\"width: 55%;\"> <!-- Adjusted text width to balance -->\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" style=\"text-align: justify;\">\n                                Fred Weinhardt is an IT consultant and managed services solution designer with over 20 years of experience, specializing in outsourced IT solutions for small businesses. His expertise encompasses on-premise and cloud servers, networks, routers, firewalls, and cybersecurity consulting, ensuring that his clients benefit from reliable, secure technology environments.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "up3MCXMQ9K",
           "_anchor": "content6-c3",
           "_PHPplaceholders": [],
