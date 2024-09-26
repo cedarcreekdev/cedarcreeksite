@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cedar Creek Network Solutions",
-    "currentPage": "speakers.html",
+    "currentPage": "cybersecurity.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -13471,10 +13471,14 @@
         },
         {
           "alias": false,
-          "_styles": {},
+          "_styles": {
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_name": "content9",
           "_sourceTheme": "mobirise4",
-          "_customHTML": "<section class=\"speakers-section\" style=\"background-color: #ffffff;\">\n  <div class=\"container text-center\">\n    <h2>Featured Speakers</h2> <!-- Header for the section -->\n    <div class=\"row\">\n      \n      <!-- Speaker 1 -->\n      <div class=\"col-md-6 text-center\">\n        <div class=\"speaker\">\n          <a href=\"speakers.html\"><img src=\"@PROJECT_PATH@/assets/images/4944443615634362035-1-300x168.jpeg\" alt=\"Fred Weinhardt\" class=\"rounded-circle\" style=\"width:150px;height:150px;\"></a>\n          <h4><a href=\"speakers.html\" class=\"text-primary\">Fred Weinhardt</a></h4>\n          <p>President, Cedar Creek Networking Inc.</p>\n        </div>\n      </div>\n      \n      <!-- Speaker 2 -->\n      <div class=\"col-md-6 text-center\">\n        <div class=\"speaker\">\n          <a href=\"speakers.html\"><img src=\"@PROJECT_PATH@/assets/images/gettyimages-1567607159-241x135.jpeg\" alt=\"Jody Lemoine\" class=\"rounded-circle\" style=\"width:150px;height:150px;\"></a>\n          <h4><a href=\"speakers.html\" class=\"text-primary\">Jody Lemoine</a></h4>\n          <p>Tischo Networks</p>\n        </div>\n      </div>\n      \n    </div>\n  </div>\n</section>\n\n<!-- Add custom CSS for the section -->\n<style>\n  .speakers-section {\n    padding: 50px 0;\n    /* Ensure background is white */\n    background-color: #ffffff !important;\n  }\n  .speakers-section h2 {\n    margin-bottom: 30px;\n    font-size: 36px;\n    font-weight: bold;\n  }\n  .speaker img {\n    margin-bottom: 15px;\n  }\n  .speaker h4 {\n    margin-top: 10px;\n    font-weight: bold;\n  }\n  .speaker p {\n    color: #6c757d;\n  }\n</style>",
+          "_customHTML": "<section class=\"speakers-section\" style=\"background-color: #ffffff;\">\n  <div class=\"container text-center\">\n    <h2>Featured Speakers</h2> <!-- Header for the section -->\n    <div class=\"row\">\n      \n      <!-- Speaker 1 -->\n      <div class=\"col-md-6 text-center\">\n        <div class=\"speaker\">\n          <a href=\"speakers.html\"><img src=\"@PROJECT_PATH@/assets/images/4944443615634362035-1-300x168.jpeg\" alt=\"Fred Weinhardt\" class=\"rounded-circle\" style=\"width:150px;height:150px;\"></a>\n          <h4><a href=\"speakers.html\" class=\"text-primary\">Fred Weinhardt</a></h4>\n          <p>President, Cedar Creek Networking Inc.</p>\n        </div>\n      </div>\n      \n      <!-- Speaker 2 -->\n      <div class=\"col-md-6 text-center\">\n        <div class=\"speaker\">\n          <a href=\"speakers.html\"><img src=\"@PROJECT_PATH@/assets/images/jody-picture-300x403.png\" alt=\"Jody Lemoine\" class=\"rounded-circle\" style=\"width:150px;height:150px;\"></a>\n          <h4><a href=\"speakers.html\" class=\"text-primary\">Jody Lemoine</a></h4>\n          <p>Tishco Networks</p>\n        </div>\n      </div>\n      \n    </div>\n  </div>\n</section>\n\n<!-- Add custom CSS for the section -->\n<style>\n  .speakers-section {\n    padding: 50px 0;\n    /* Ensure background is white */\n    background-color: #ffffff !important;\n  }\n  .speakers-section h2 {\n    margin-bottom: 30px;\n    font-size: 36px;\n    font-weight: bold;\n  }\n  .speaker img {\n    margin-bottom: 15px;\n  }\n  .speaker h4 {\n    margin-top: 10px;\n    font-weight: bold;\n  }\n  .speaker p {\n    color: #6c757d;\n  }\n</style>",
           "_cid": "umRnLmljWJ",
           "_anchor": "content9-bi",
           "_PHPplaceholders": [],
