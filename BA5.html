@@ -1,1 +1,467 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Business Readiness Check | CedarCreek Networking</title>
+  <style>
+    :root {
+      --navy: #15324b;
+      --blue: #2674a6;
+      --pale: #eaf2f7;
+      --text: #20313d;
+      --border: #cfd9e0;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 30px 15px;
+      font-family: Arial, sans-serif;
+      background: #f2f5f7;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: auto;
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,.08);
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 36px 30px;
+      text-align: center;
+    }
+
+    header .brand {
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: #c8ddf0;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin: 12px 0 4px;
+    }
+
+    header h2 {
+      font-size: 19px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    header p {
+      color: #d6e4f0;
+      font-size: 14px;
+    }
+
+    form { padding: 30px; }
+
+    .intro {
+      color: #536777;
+      margin-bottom: 25px;
+    }
+
+    .section {
+      margin-bottom: 28px;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section h3 {
+      color: var(--navy);
+      font-size: 18px;
+      margin: 0 0 15px;
+    }
+
+    label.field-label {
+      display: block;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 15px 0 6px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 85px;
+      resize: vertical;
+    }
+
+    .option {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin: 12px 0;
+      cursor: pointer;
+    }
+
+    .option input {
+      margin-top: 5px;
+      accent-color: var(--blue);
+      width: 17px;
+      height: 17px;
+      flex-shrink: 0;
+    }
+
+    .option span { flex: 1; }
+
+    .offer {
+      background: var(--pale);
+      padding: 20px;
+      border-radius: 9px;
+      margin-bottom: 25px;
+    }
+
+    .offer h3 {
+      margin: 0 0 8px;
+      color: var(--navy);
+    }
+
+    .small {
+      font-size: 12px;
+      color: #536777;
+    }
+
+    .submit-btn {
+      background: var(--blue);
+      color: white;
+      border: none;
+      width: 100%;
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .submit-btn:hover { background: #195b86; }
+
+    .submit-btn:disabled {
+      opacity: .65;
+      cursor: wait;
+    }
+
+    .status {
+      margin-top: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      background: #f6f8fa;
+      padding: 18px;
+      color: #536777;
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 28px 18px; }
+      header h1 { font-size: 26px; }
+      form { padding: 22px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="container">
+
+  <header>
+    <div class="brand">CEDARCREEK NETWORKING</div>
+    <h1>Ready for What's Next?</h1>
+    <h2>Business Readiness Check</h2>
+    <p>AI Readiness | Cybersecurity | PCI DSS & Privacy</p>
+  </header>
+
+  <form id="leadForm"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST">
+
+    <p class="intro">
+      Tell us a little about your business and what matters
+      most to you. We'll help you identify practical next steps.
+    </p>
+
+    <section class="section">
+      <h3>1. Your Contact Information</h3>
+
+      <label class="field-label" for="name">Full Name *</label>
+      <input id="name" name="name" type="text"
+             autocomplete="name" required maxlength="150">
+
+      <label class="field-label" for="company">Company *</label>
+      <input id="company" name="company" type="text"
+             autocomplete="organization" required maxlength="200">
+
+      <label class="field-label" for="email">Business Email *</label>
+      <input id="email" name="email" type="email"
+             autocomplete="email" required maxlength="254">
+
+      <label class="field-label" for="phone">Phone (Optional)</label>
+      <input id="phone" name="phone" type="tel"
+             autocomplete="tel" maxlength="40">
+    </section>
+
+    <section class="section">
+      <h3>2. What Is Your Business Interested In?</h3>
+      <p class="small">Select all that apply.</p>
+
+      <label class="option">
+        <input type="checkbox" name="interests"
+               value="AI Readiness / Microsoft Copilot">
+        <span>AI Readiness / Microsoft Copilot</span>
+      </label>
+
+      <label class="option">
+        <input type="checkbox" name="interests"
+               value="Cybersecurity">
+        <span>Cybersecurity</span>
+      </label>
+
+      <label class="option">
+        <input type="checkbox" name="interests"
+               value="PCI DSS / Payment Security">
+        <span>PCI DSS / Payment Security</span>
+      </label>
+
+      <label class="option">
+        <input type="checkbox" name="interests"
+               value="PIPEDA / Privacy Readiness">
+        <span>PIPEDA / Privacy Readiness</span>
+      </label>
+
+      <label class="option">
+        <input type="checkbox" name="interests"
+               value="General IT Support">
+        <span>General IT Support</span>
+      </label>
+    </section>
+
+    <section class="section">
+      <h3>3. Where Are You in the Process?</h3>
+
+      <label class="option">
+        <input type="radio" name="priority"
+               value="Just Exploring" required>
+        <span>Just exploring options</span>
+      </label>
+
+      <label class="option">
+        <input type="radio" name="priority"
+               value="Planning Improvements">
+        <span>Planning improvements in the next 3–6 months</span>
+      </label>
+
+      <label class="option">
+        <input type="radio" name="priority"
+               value="Immediate Need">
+        <span>Have an immediate need or concern</span>
+      </label>
+    </section>
+
+    <section class="section">
+      <h3>4. How Can CedarCreek Help?</h3>
+
+      <label class="option">
+        <input type="radio" name="next_step"
+               value="Send Resources" required>
+        <span>Send me helpful information</span>
+      </label>
+
+      <label class="option">
+        <input type="radio" name="next_step"
+               value="Schedule Call">
+        <span>Contact me to arrange a quick call</span>
+      </label>
+
+      <label class="option">
+        <input type="radio" name="next_step"
+               value="Book Consultation">
+        <span>I'd like a complimentary 30-minute readiness consultation</span>
+      </label>
+
+      <label class="option">
+        <input type="radio" name="next_step"
+               value="No Follow Up">
+        <span>Just browsing today</span>
+      </label>
+    </section>
+
+    <section class="section">
+      <h3>5. Anything Else We Should Know?</h3>
+
+      <label class="field-label" for="notes">
+        Your Goals or Questions (Optional)
+      </label>
+
+      <textarea id="notes" name="notes" maxlength="1500"
+        placeholder="Tell us about your business goals or concerns. Please do not include passwords or sensitive information."></textarea>
+    </section>
+
+    <div class="offer">
+      <h3>Complimentary Readiness Consultation</h3>
+      <p>
+        Meet with CedarCreek Networking for a focused,
+        30-minute conversation about your business priorities.
+        We'll discuss your goals and identify practical next steps.
+      </p>
+      <strong>No pressure. Just useful advice.</strong>
+    </div>
+
+    <section class="section">
+      <h3>6. Communication Preferences</h3>
+
+      <label class="option">
+        <input type="checkbox" id="followup"
+               name="requested_followup_consent"
+               value="Yes">
+        <span>
+          I agree to be contacted by CedarCreek Networking
+          about the specific information or consultation I request.
+        </span>
+      </label>
+
+      <label class="option">
+        <input type="checkbox" id="marketing"
+               name="marketing_consent"
+               value="Yes">
+        <span>
+          I'd also like to receive occasional emails about
+          IT, AI, cybersecurity and CedarCreek services.
+          I understand I can unsubscribe at any time.
+        </span>
+      </label>
+
+      <p class="small">
+        CedarCreek Networking will use your information to
+        respond to your request and, if you opt in, send
+        marketing communications. Marketing consent is optional.
+        See our
+        <a href="https://www.cedarcreek.ca/" target="_blank"
+           rel="noopener noreferrer">website</a>
+        for company contact information.
+      </p>
+      <p class="small">
+        Before publishing, replace the website link above with
+        CedarCreek's actual privacy notice URL.
+      </p>
+    </section>
+
+    <input type="hidden" name="event"
+           value="Chamber Member Event 2026">
+    <input type="hidden" name="lead_source"
+           value="Chamber Booth QR Code">
+    <input type="hidden" name="_subject"
+           value="New CedarCreek Chamber Lead">
+
+    <button class="submit-btn" type="submit" id="submitBtn">
+      Submit My Business Readiness Request
+    </button>
+
+    <p id="status" class="status" role="status"
+       aria-live="polite"></p>
+  </form>
+
+  <footer>
+    CedarCreek Networking<br>
+    IT | Cybersecurity | Microsoft 365<br>
+    Serving Waterloo Region
+  </footer>
+
+</div>
+
+<script>
+  const form = document.getElementById("leadForm");
+  const submitBtn = document.getElementById("submitBtn");
+  const status = document.getElementById("status");
+
+  form.addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    const endpoint = form.action;
+
+    if (endpoint.includes("YOUR_FORM_ID")) {
+      status.textContent =
+        "Form setup is incomplete. Please contact CedarCreek.";
+      return;
+    }
+
+    const nextStep = form.querySelector(
+      'input[name="next_step"]:checked'
+    )?.value;
+
+    const followup = document.getElementById("followup");
+
+    if (nextStep !== "No Follow Up" && !followup.checked) {
+      status.textContent =
+        "Please confirm that we may contact you about your request.";
+      followup.focus();
+      return;
+    }
+
+    submitBtn.disabled = true;
+    status.textContent = "Submitting your request...";
+
+    try {
+      const data = new FormData(form);
+
+      data.set(
+        "requested_followup_consent",
+        followup.checked ? "Yes" : "No"
+      );
+
+      data.set(
+        "marketing_consent",
+        document.getElementById("marketing").checked
+          ? "Yes"
+          : "No"
+      );
+
+      const response = await fetch(endpoint, {
+        method: "POST",
+        body: data,
+        headers: {
+          "Accept": "application/json"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error("Submission failed");
+      }
+
+      form.reset();
+      status.textContent =
+        "Thank you! Your request has been submitted successfully.";
+
+    } catch (error) {
+      status.textContent =
+        "We couldn't submit your request. Please try again " +
+        "or speak with our team.";
+    } finally {
+      submitBtn.disabled = false;
+    }
+  });
+</script>
+
+</body>
+</html>
+
